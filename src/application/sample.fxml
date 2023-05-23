@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="btnlogin" layoutX="220.0" layoutY="284.0" mnemonicParsing="false" text="Login" />
+            <TextField fx:id="userbox" layoutX="220.0" layoutY="166.0" />
+            <TextField fx:id="passebox" layoutX="220.0" layoutY="221.0" />
+            <Label layoutX="113.0" layoutY="171.0" text="Nom d'usager" />
+            <Label layoutX="115.0" layoutY="226.0" text="Mot de passe" />
+            <Button fx:id="btnsignup" layoutX="342.0" layoutY="344.0" mnemonicParsing="false" text="Créer votre compte" />
+            <Label layoutX="189.0" layoutY="349.0" text="Vous n'êtes pas un usager?" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

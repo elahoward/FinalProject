@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoggedInController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="141.0" layoutY="116.0" lineSpacing="6.0" prefHeight="168.0" prefWidth="301.0" text="this is what you see when you are logged in. i do not know what to put here but it will be worth seeing hopefully" textOverrun="CLIP" wrapText="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
